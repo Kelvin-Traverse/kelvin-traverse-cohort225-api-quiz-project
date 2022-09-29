@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./quiz.css">
+</head>
+<body>
+  <!-- Main quiz section -->
+  <main>
+    <h1>Trivia Quiz</h1>
+  </main>
+
+  <!-- Backdrop and popup modal for displaying results-->
+  <div id="backdrop"></div>
+  
+  <div id="results-modal">
+    <div>
+      <span id="score"></span>/10
+    </div>
+    <div id="results-modal-buttons">
+      <button id="btn-review" class="btn" type="button">Review</button>
+      <button id="btn-new" class="btn" type="button">New Quiz</button>
+    </div>
+  </div>
+  
+  <!-- Script -->
+  <script src="./quiz.js"></script>
+</body>
